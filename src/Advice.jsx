@@ -34,7 +34,7 @@ const Advice = () => {
 
 
     return (
-        <div className='h-auto sm:h-auto max-[550px] sm:w-550px rounded-lg bg-Dark-Grayish-Blue flex flex-col justify-center items-center '>
+        <div className='h-auto sm:h-auto max-w-[550px]  sm:max-w-550px rounded-lg bg-Dark-Grayish-Blue flex flex-col justify-center items-center '>
             <h1 className=' text-Neon-Green font-Manrope text-[13px] sm:text-[12px] mt-11 mb-5'>A D V I C E &nbsp; # {loading ? <>..loading</> : <>{gettingAdvice.id}</>}</h1>
             <p className=' text-Light-Cyan font-Manrope text-quote-mobile sm:text-quote w-[75%]'>"{loading ? <>..loading</> : <>{gettingAdvice.advice}</>}"</p>
             <div className='flex items-center justify-center '>
