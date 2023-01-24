@@ -13,6 +13,10 @@ module.exports = {
         fontWeight: '800',
         lineHeight: '2.2rem'
       }],
+      "quote-mobile": ['30px', {
+        fontWeight: '800',
+        lineHeight: '3rem'
+      }],
     },
 
     extend: {
