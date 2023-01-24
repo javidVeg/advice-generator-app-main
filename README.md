@@ -37,41 +37,12 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### What I learned
 
-This challenge was a great refresher for API's! Super simple but still a good way to test my knowledge by not using to many online resources!
+This challenge was a great refresher for API's! Super simple but still a good way to test my knowledge by not using to many online resources! I learned that Tailwind is STILL a mobile first CSS framework and that I need to be writing it out as such to avoid redoing things at the end. 
 
-```js
-module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    fontSize: {
-      "15px": ['15px', {
-        fontWeight: '700',
-        lineHeight: '1.2rem'
-      }],
-      "11px": ['11px', {
-        fontWeight: '400',
-        lineHeight: '.8rem'
-      }]
-    },
-    fontFamily: {
-      'outfit': ['Outfit', 'sans-serif']
-    },
-   
-    extend: { 
-      colors: {
-      'Grayish-blue': 'hsl(220, 15%, 55%)',
-      'Dark-blue': 'hsl(218, 44%, 22%)'
-    },},
-  },
-  plugins: [],
-}
-```
+
 ### Continued development
 
-This is my first time using Vite with React and Tailwind together and I am glad I chose this project to do so because there was a lot of cobwebs on my tailwind skills that I needed to brush off. This project also allowed me to get a better grasp of how to implement Vite. This will be my stack from this point forward while completing Frontend Mentor challenges. 
+As I continue down the path of Vite/React and Tailwind, I need to ensure that I am revisiting the simple fundamentals of Javascript and CSS. It can be very easy to fall down the rabbit hole and not remember the basics of the basics!
 
 ## Author
 
